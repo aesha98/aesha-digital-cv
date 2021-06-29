@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Siti Aesha digital-cv</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
+
+</head>
+
+<body>
+
+  <div class="top-container">
+    <nav class="nav">
+            <div class="container">
+                <div class="logo">
+
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="#footer">Project</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>Activies joined</h1>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/girl-work.png" alt="mountain-img">
+  </div>
+
+  <hr>
+
+  <section id ="footer">
+    <div class="contact-me">
+      <h2>ACTIVTIES JOINED.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/mit.gif" alt="code-img">
+
+        <h3>BENGKEL APPTIZER : MIT APP Inventor</h3>
+        <p>I joined this workshop to gain new knowledge on how to build Android apps using only MIT APP Inventor.
+           In this two days duration program, i managed to built two apps.</p>
+
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/adobe.gif" width="90" height="200" style="width:150px;"alt="chillies-img">
+
+        <h3>BENGKEL MOBILE APPLICATION PROTOTYPING (ADOBE XD ELEMENT UI)</h3>
+        <p>I also joined this workshop to learn in-depth of ADOBE XD, a design tool used to built a prototype of website or mobile application.
+        I managed to built one prototype at the end of the day.</p>
+
+      </div >
+
+      <hr>
+      <h2>SEM 2 (CONT.)</h2>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/tshirt.gif" width="90" height="200" style="width:150px;"alt="chillies-img">
+
+        <h3>PROGRAM 3R </h3>
+        <p style="text-align:justify;">I joined the 3R contest. the event was held by SIG iMachine, we have to create a product using the implementation of the 3R
+        (Recycle,Reuse and Reduce), I managed to build a product using an old unused boxes and build a t-shirt folding board.</p>
+
+      </div >
+
+      <div class="skill-row">
+        <div class="row">
+          <div class="column">
+            <img src="images/poster3R.png" alt="Snow" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/3r.jpeg" alt="Forest" style="width:100%">
+              <img src="images/3r2.jpeg" alt="Forest" style="width:100%">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="skill-row">
+        <img class="code-img" src="images/unity.gif" width="90" height="200" style="width:150px;"alt="chillies-img">
+
+        <h3>UNITY WORKSHOP</h3>
+        <p style="text-align:justify;">I also joined this workshop to learn in-depth of using Unity, a tool that is used to build 2D, 3D and VR games and apps at speed.
+        The workshop helped taught me the basic of using the software that i hope to further advanced so that i can build an AR application.</p>
+
+      </div >
+
+      <div class="skill-row">
+        <div class="row">
+          <div class="column">
+            <img src="images/unity2.png" alt="Snow" style="width:100%">
+          </div>
+          <div class="column">
+            <img src="images/unity3.png" alt="Forest" style="width:100%">
+          </div>
+
+        </div>
+      </div>
+
+
+
+  <div class="bottom-container" style="margin-top:50px;">
+    <a class="footer-link" href="https://github.com/aesha98">Github</a>
+    <a class="footer-link" href="https://twitter.com/sity_asya">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/sitiaesha/">Instagram</a>
+    <p class="copyright">© 2021 Siti Aesha @ Personal CV.</p>
+  </div>
+  </section>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/myscripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+</html>
