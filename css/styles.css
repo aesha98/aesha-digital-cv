@@ -196,6 +196,44 @@ a:hover {
     animation: inBtm 0.8s forwards;
 }
 
+.skills-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-bar {
+  width: 80%;
+  margin: 20px auto;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 10px;
+  position: relative;
+}
+
+.skill-bar span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #11698e;
+  border-radius: 10px;
+  width: 0%;
+  transition: all 0.3s ease-in-out;
+}
+
+.skill-name {
+  text-align: center;
+  margin-top: 10px;
+  color: #ddd;
+}
+
 @-webkit-keyframes inM {
     50% {
         -webkit-transform: rotate(0deg);
